@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+
+
+.fix::after {
+content: '';
+display: table;
+clear: both;
+}
+
+.debug {
+    border:1px solid;
+    height:90%;
+}
+
+
+body {
+    width: 80%;
+    margin: 30px auto;
+    
+}
+
+.pinklogo {
+    height:8vh;
+    background-color: rgb(255, 112, 231);
+}
+
+
+.top-banner {
+      height:30vh;
+      background-color:#E1D67A;
+      margin: 15px 0;
+}
+
+main {
+      background-color:#0384FB;
+      height:50vh;
+      margin-bottom: 10px;
+}
+
+.title {
+    height:3vh;
+    background-color:lightblue ;
+}
+
+.box {
+    background-color: lightblue;
+    height: 88%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.box-center {
+    width: 60%;
+    float: left;
+    background-color: lightblue;
+    margin: 1% 2% 0 2%;
+}
+
+.box.box-left {
+  width:18%;
+  float: left;
+}
+.box.box-right {
+    width:18%;
+    float: right;
+}
+
+footer {
+      height:4vh;
+      background-color: blueviolet;
+}
